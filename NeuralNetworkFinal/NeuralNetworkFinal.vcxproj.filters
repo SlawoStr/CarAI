@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\NN">
+      <UniqueIdentifier>{0d523cac-5115-4d2a-8e23-eccc0b802938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NN">
+      <UniqueIdentifier>{e68be769-3643-472a-a5b7-8886d4898815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GA">
+      <UniqueIdentifier>{2584a314-91b1-466f-902d-023057e4107c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GA">
+      <UniqueIdentifier>{8322a370-d686-478a-9958-c71c277473e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cars">
+      <UniqueIdentifier>{11c231e6-5f25-4048-a05a-6f6ab0710c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cars">
+      <UniqueIdentifier>{5794f923-8ab2-402d-9f05-e252d4a434a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Neuron.cpp">
+      <Filter>Source Files\NN</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>Source Files\NN</Filter>
+    </ClCompile>
+    <ClCompile Include="NeuralNetwork.cpp">
+      <Filter>Source Files\NN</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneticAlgorithm.cpp">
+      <Filter>Source Files\GA</Filter>
+    </ClCompile>
+    <ClCompile Include="GAAlgorithms.cpp">
+      <Filter>Source Files\GA</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>Source Files\Cars</Filter>
+    </ClCompile>
+    <ClCompile Include="CarManager.cpp">
+      <Filter>Source Files\Cars</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMap.cpp">
+      <Filter>Source Files\Cars</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Layer.h">
+      <Filter>Header Files\NN</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuralNetwork.h">
+      <Filter>Header Files\NN</Filter>
+    </ClInclude>
+    <ClInclude Include="Neuron.h">
+      <Filter>Header Files\NN</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomNumberGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneticAlgorithm.h">
+      <Filter>Header Files\GA</Filter>
+    </ClInclude>
+    <ClInclude Include="GAAlgorithms.h">
+      <Filter>Header Files\GA</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>Header Files\Cars</Filter>
+    </ClInclude>
+    <ClInclude Include="CarManager.h">
+      <Filter>Header Files\Cars</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap.h">
+      <Filter>Header Files\Cars</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
