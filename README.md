@@ -13,4 +13,4 @@ Options:
 - L - Load boundaries map
 - R - Reset boundaries map
 
-![Animation](https://github.com/SlawekSt/CarAI/blob/main/Animation.gif)
+![Animation](https://github.com/SlawoStr/CarAI/blob/master/Animation.gif)
